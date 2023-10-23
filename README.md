@@ -2,7 +2,7 @@
 
 ![Mascotapps](images/Grupo%2024334.png)
 
-Thanks for stopping by the repository of the Mascotapps landing page, an innovative solution for identifying and taking care of your beloved pets. This landing page showcases a variety of web skills and techniques to create a responsive and visually appealing website.
+This landing page showcases a variety of web skills and techniques to create a visually appealing website.
 
 ## Project Highlights 🚀
 
