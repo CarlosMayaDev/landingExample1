@@ -8,8 +8,6 @@ Thanks for stopping by the repository of the Mascotapps landing page, an innovat
 
 This project demonstrates several exciting skills and techniques:
 
-- **Responsive Design**: The website adapts seamlessly to different screen sizes, ensuring a fantastic user experience on mobile devices, tablets, and desktop computers.
-
 - **HTML and CSS**: We use HTML and CSS to structure and style the page's content, giving it a unique and eye-catching appearance.
 
 - **Navigation Menu**: The navigation menu is created with HTML lists and styled with CSS. It includes links to different sections of the page.
