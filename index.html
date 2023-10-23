@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="images/Grupo 24334.png" alt="logo">
+        </div>
+        <ul>
+          <li class="font1"><a href="#">Como funciona?</a></li>
+          <li class="font1"><a href="#">Contacto</a></li>
+          <li class="font2"><a href="#">Iniciar sesion</a></li>
+          <li class="font2"><a href="#">Registrate</a></li>
+        </ul>
+      </nav>
+
+      <div class="content1">
+        <img src="images/Grupo 24154.png" class="dog" alt="dog">
+      </div>
+      <div class="content2">
+        <p class="texto1">Tus mascotas son parte de tu familia</p> 
+        <p class="texto2">Te ayudamos a cuidarlas</p>
+        <div>
+            <button class="boton1">
+                Comprar una placa
+            </button>
+            <button class="boton2">
+                Tengo una placa
+            </button>
+        </div>
+      </div>
+      <div class="content3">
+        <p class="texto3">¿Cómo funciona Mascotapps?</p>
+        <div class="subcontent3">
+          <div class="box1">
+            <p class="circle">1</p>
+            <img src="images/Grupo 24156.svg" class="logo2">
+            <p class="texto4">Adquiere una placa</p>
+            <p class="texto5">Compra una placa que incluye un código QR con el cual podrás identificar a tu mascota.</p>
+          </div>
+          <div class="box2">
+            <p class="circle">2</p>
+            <img src="images/Grupo 24155.svg" class="logo2">
+            <p class="texto4">Registra tu mascota</p>
+            <p class="texto5">Escanea el código QR de tu placa para registrar tu mascota, es sencillo y en línea.</p>
+          </div>
+          <div class="box3">
+            <p class="circle">3</p>
+            <img src="images/Grupo 24157.svg" class="logo2">
+            <p class="texto4">Usa la placa en tu mascota</p>
+            <p class="texto5">Pon la placa en el collar de tu mascota para identificarla siempre solo con un escaneo.</p>
+          </div>
+        </div>
+      </div>
+      <p class="texto6">Preguntas frecuentes</p>
+      <div class="preguntaContainer">
+        <p class="texto7">¿Cuánto cuesta registrar mi máscota?</p>
+        <p class="texto8">+</p>
+      </div>
+      <div class="preguntaContainer">
+        <p class="texto7">¿Qué pasa si pierdo el código QR registrado de mi mascota?</p>
+        <p class="texto8">+</p>
+      </div>
+      <div class="preguntaContainer">
+        <p class="texto7">¿Cómo puedo editar los datos registrados de mi mascota?</p>
+        <p class="texto8">+</p>
+      </div>
+      <div class="preguntaContainer">
+        <p class="texto7">¿Cómo puedo tener soporte si tengo algún problema?</p>
+        <p class="texto8">+</p>
+      </div>
+
+      <div class="contactoContainer">
+        <p class="texto10">Contacto</p>
+        <p class="texto9">Siempre puedes escribirnos y consúltarnos</p>
+        <div class="contacto">
+          <form action="tu_script_de_procesamiento.php" method="post">
+            <label for="nombre"></label>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="input1" required>
+            <span class="error" id="nombre-error"></span>
+
+            <label for="apellidos"></label>
+            <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" class="input2" required>
+            <span class="error" id="apellidos-error"></span>
+      
+            <label for="celular"></label>
+            <input type="tel" id="celular" name="celular" placeholder="Numero celular" class="input3"required pattern="[0-9]*">
+            <span class="error" id="tel-error"></span>
+
+            <label for="email"></label>
+            <input type="email" id="email" name="email" placeholder="Correo electronico" class="input4" required>
+            <span class="error" id="email-error"></span>
+
+            <label for="mensaje"></label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Mensaje" class="input5" required></textarea>
+      
+            <button type="submit" class="enviar-boton" id="enviar-boton">Enviar</button>
+          </form>
+          <p id="mensaje-enviado" style="display: none" class="mensajeEnviado">Mensaje enviado</p>
+        </div>
+      </div>
+
+      <div class="icono-texto-container">
+        <img src="images/Icon feather-mail.svg" class="icono">
+        <p class="texto-correo">Recibe las últimas novedades en tu correo</p>
+      </div>
+      
+      <div class="subscribe-container">
+        <div>
+          <input type="email" id="email2" name="email2" class="subscribe-input" placeholder="Tu correo electrónico">
+          <button class="subscribe-button">Suscríbete</button>
+        </div>
+      </div>
+
+      <p class="prox">Próximamente en</p>
+      <div class="icono2container">
+        <img src="images/Grupo 24161.svg">
+        <img src="images/Grupo 24162.svg">
+      </div>
+
+      <div class="footer">
+          <div class="column">
+            <img src="images/Grupo 24334.png" alt="Logo de Mascotapps">
+            <p class="font1">La solución definitiva para identificar y encontrar su mascota. Con Mascotapps, escaneas, conecta y proteges a tus compañeros peludos.</p>
+          </div>
+          <div class="column">
+            <h3>Mascotapps</h3>
+            <ul>
+                <li class="font1">Inicio</li>
+                <li class="font1">¿Cómo funciona?</li>
+                <li class="font1">Contáctenos</li>
+                <li class="font1">Regístrate</li>
+            </ul>
+          </div>
+          <div class="column">
+            <h3>De Interés</h3>
+            <ul>
+                <li class="font1">Veterinarias</li>
+                <li class="font1">Guía médica</li>
+                <li class="font1">Alianzas</li>
+                <li class="font1">Referidos</li>
+            </ul>
+          </div>
+          <div class="column">
+            <h3>Nos encuentras en</h3>
+            <div class="social-icons">
+                <img src="images/Grupo 24336.svg" alt="Facebook">
+                <img src="images/Grupo 24337.svg" alt="Twitter">
+                <img src="images/Grupo 24338.svg" alt="Instagram">
+            </div>
+          </div>
+      </div>
+      <script src="js/script.js"></script>
+</body>
+</html>
